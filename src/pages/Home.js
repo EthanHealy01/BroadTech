@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import GlobeDemo from '../components/GlobeDemo';
 
 const HomeContainer = styled.div`
   height: 100vh;
@@ -38,13 +39,20 @@ const Button = styled.button`
 
 const Home = () => {
   return (
+    <>
     <HomeContainer>
+      <div style={{display:'flex', flexDirection:'row', justifyContent:"space-between", alignItems:'center'}}>
+        <div>
       <Heading>Broadhaven Technologies</Heading>
       <SubHeading>
       Empowering Businesses Through Tailored and Intelligent Technology Solutions
       </SubHeading>
+      </div>
+      <GlobeDemo />
+      </div>
 
     </HomeContainer>
+    </>
   );
 };
 

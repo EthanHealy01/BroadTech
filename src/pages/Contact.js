@@ -28,7 +28,7 @@ const About = () => {
       <Paragraph>
       CEO: mark.healy@broadtech.ie
       <br/>
-      Other: ethan.healy@broadtech.ie
+      CTO: ethan.healy@broadtech.ie
       </Paragraph>
     </ContactContainer>
   );
