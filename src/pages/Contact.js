@@ -24,11 +24,11 @@ const Paragraph = styled.p`
 const About = () => {
   return (
     <ContactContainer>
-      <Title>Contact for Broadhaven Technologies Limited</Title>
+      <Title>Contact Broadhaven Technologies Limited</Title>
       <Paragraph>
       CEO: Mark Healy <a href="https://www.linkedin.com/in/markhealymayo/">LinkedIn</a>
       <br/>
-      CTO: Ethan Healy<a href="https://www.linkedin.com/in/ethan-healy-b40a17209/">LinkedIn</a>
+      CTO: Ethan Healy <a href="https://www.linkedin.com/in/ethan-healy-b40a17209/">LinkedIn</a>
       </Paragraph>
     </ContactContainer>
   );
